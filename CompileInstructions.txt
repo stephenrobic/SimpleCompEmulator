@@ -1,0 +1,8 @@
+Compilation Instructions for Narc (in Python) using Linux:
+
+1) Open up the terminal program.
+2) Type cd ~/foldername to change directory to the folder, in which the .py program resides, and hit Enter.
+3) Type chmod a+x sar-lab5.py (python file name) to tell Linux that it is an executable program.
+4) Type ./sar-lab5.py to run the program. 
+	For this specific program, the first argument will open a file, and: ./sar-lab5.py,
+	followed by a space, followed by the file name will run the program (i.e: ./sar-lab5.py divide.bin)
