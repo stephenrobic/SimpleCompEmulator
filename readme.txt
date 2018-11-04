@@ -1,10 +1,7 @@
-Created an emulator for a simple computer which operates on 16-bit words sequentially listed in an input file using Python. 
+Created an emulator for a simple computer which operates on 16-bit words sequentially listed in a binary input file using Python. 
 
 I used the binascii module for hexadecimal conversion and the sys module to open the input file as a command line argument.
-The program reads a binary file containing 16 bit instructions words into an instruction list, and using direct addressing, from each word. 
-
-The program extracts certain bits and translates the word into one of 15 assembly language instructions. With 8 bits of each word being used in the memory address representation, this program directly addresses 256 memory locations. 
-It also makes use of a program counter and accumulator. 
+The program reads a binary file containing 16 bit instructions words into an instruction list, and using direct addressing, from each word, the program extracts certain bits and translates the word into one of 15 assembly language instructions. With 8 bits of each word being used in the memory address representation, this program directly addresses 256 memory locations. The program also makes use of a program counter and accumulator. 
 
 For future implementation, bits are also extracted for an index flag, indirect flag, and a single opcode extension bit.
 
