@@ -8,4 +8,4 @@ With this particular implementation, the program must be run through the command
 
 Bits are also extracted for an index flag, indirect flag, and a single opcode extension bit to be used for future implementations.
 
-Contained in this repository, is a Divide.bin file, which acts as a simple division calculator utilizing the emulator for testing purposes.
+Contained in this repository, is a Divide.bin file, which acts as a simple division calculator utilizing the emulator.
